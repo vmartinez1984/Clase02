@@ -1,0 +1,6 @@
+@HolaMundo_Watchdog_HostAddress = http://localhost:5067
+
+GET {{HolaMundo_Watchdog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
