@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using NotificacionServicio;
+﻿using Microsoft.AspNetCore.Mvc;
+using NotificacionesServicio;
 
 namespace HolaMundo_Servicio.Controllers
 {
@@ -8,9 +7,9 @@ namespace HolaMundo_Servicio.Controllers
     [ApiController]
     public class NotificacionessController : ControllerBase
     {
-        private readonly Notificacion _notificacion;
+        private readonly NotificacionServicio _notificacion;
 
-        public NotificacionessController(Notificacion notificacion)
+        public NotificacionessController(NotificacionServicio notificacion)
         {
             _notificacion = notificacion;
         }

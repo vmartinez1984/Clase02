@@ -1,9 +1,9 @@
-using NotificacionServicio;
+using NotificacionesServicio;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddScoped<Notificacion>();
+builder.Services.AddScoped<NotificacionServicio>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

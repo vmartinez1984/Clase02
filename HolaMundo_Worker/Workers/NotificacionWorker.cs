@@ -1,4 +1,4 @@
-﻿using NotificacionServicio.Interfaces;
+﻿using NotificacionesServicio.Interfaces;
 using System.Threading.Tasks;
 
 namespace HolaMundo_Worker.Workers
@@ -31,7 +31,7 @@ namespace HolaMundo_Worker.Workers
         private async void DoWork(object state)
         {
             _logger.LogInformation("Hola mundo");
-            INotificacion notificacion = _scopeFactory.CreateAsyncScope().ServiceProvider.GetService<INotificacion>();
+            INotificacionServicio notificacion = _scopeFactory.CreateAsyncScope().ServiceProvider.GetService<INotificacionServicio>();
 
             await notificacion.EnviarPorCorreoAsync();
         }

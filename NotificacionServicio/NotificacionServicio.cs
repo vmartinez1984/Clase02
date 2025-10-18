@@ -1,10 +1,10 @@
-﻿using NotificacionServicio.Interfaces;
+﻿using NotificacionesServicio.Interfaces;
 using System.Net;
 using System.Net.Mail;
 
-namespace NotificacionServicio
+namespace NotificacionesServicio
 {
-    public class Notificacion : INotificacion
+    public class NotificacionServicio : INotificacionServicio
     {
         public async Task EnviarPorCorreoAsync()
         {

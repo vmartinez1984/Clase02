@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_AuthBasic", "Hola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Servicio", "HolaMundo_Servicio\HolaMundo_Servicio.csproj", "{5BD87905-1AA2-4ADF-842F-8378A53EE915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificacionServicio", "NotificacionServicio\NotificacionServicio.csproj", "{82FB4C8A-3C14-406E-BE3A-90345944E2D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificacionesServicio", "NotificacionServicio\NotificacionesServicio.csproj", "{82FB4C8A-3C14-406E-BE3A-90345944E2D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Worker", "HolaMundo_Worker\HolaMundo_Worker.csproj", "{BA0BF0B2-D21B-40B0-A199-9FE4BA30AD01}"
 EndProject
