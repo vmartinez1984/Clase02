@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36616.10 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Middleware", "HolaMundo_Middleware\HolaMundo_Middleware.csproj", "{B53037BE-3F9F-4597-BEDA-153B37D7C572}"
 EndProject
@@ -18,6 +18,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Jwt", "HolaMundo_Jwt\HolaMundo_Jwt.csproj", "{3D562C11-8E6C-4AA2-B4FE-137DC0F0427E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutorizacionJwtServicio", "AutorizacionJwtServicio\AutorizacionJwtServicio.csproj", "{4DB4B152-3AD4-4916-8D41-F3B9BC10BBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Wcf", "HolaMundo_Wcf\HolaMundo_Wcf.csproj", "{180DBD57-A2D4-43E8-8C30-3F8AB4C41D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_CoreWcf", "HolaMundo_CoreWcf\HolaMundo_CoreWcf.csproj", "{3F848E38-3E1B-4703-9DFA-CDE93269950D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_CosumirWcf", "HolaMundo_CosumirWcf\HolaMundo_CosumirWcf.csproj", "{080659F0-90A5-4D38-BD68-BB84AF116A93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{4DB4B152-3AD4-4916-8D41-F3B9BC10BBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB4B152-3AD4-4916-8D41-F3B9BC10BBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB4B152-3AD4-4916-8D41-F3B9BC10BBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180DBD57-A2D4-43E8-8C30-3F8AB4C41D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180DBD57-A2D4-43E8-8C30-3F8AB4C41D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180DBD57-A2D4-43E8-8C30-3F8AB4C41D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180DBD57-A2D4-43E8-8C30-3F8AB4C41D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F848E38-3E1B-4703-9DFA-CDE93269950D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F848E38-3E1B-4703-9DFA-CDE93269950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F848E38-3E1B-4703-9DFA-CDE93269950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F848E38-3E1B-4703-9DFA-CDE93269950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080659F0-90A5-4D38-BD68-BB84AF116A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080659F0-90A5-4D38-BD68-BB84AF116A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080659F0-90A5-4D38-BD68-BB84AF116A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080659F0-90A5-4D38-BD68-BB84AF116A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

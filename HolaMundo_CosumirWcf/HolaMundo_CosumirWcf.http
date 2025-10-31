@@ -1,0 +1,6 @@
+@HolaMundo_CosumirWcf_HostAddress = http://localhost:5271
+
+GET {{HolaMundo_CosumirWcf_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
