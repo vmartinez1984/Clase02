@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "HolaMundo_Grpc";
+
+package estado;
+
+service Estado {
+	rpc ObtenerTodos(EstadoRequest) returns (EstadosReply);
+}
+
+message EstadoRequest{
+
+}
+
+message EstadoMessage {
+	string nombre= 1;
+	int32 id = 2;
+}
+
+message EstadosReply{
+	repeated EstadoMessage estados= 1;
+}
