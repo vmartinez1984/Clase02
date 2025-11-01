@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11123.170 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Middleware", "HolaMundo_Middleware\HolaMundo_Middleware.csproj", "{B53037BE-3F9F-4597-BEDA-153B37D7C572}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_CosumirWcf", "HolaMundo_CosumirWcf\HolaMundo_CosumirWcf.csproj", "{080659F0-90A5-4D38-BD68-BB84AF116A93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_Grpc", "HolaMundo_Grpc\HolaMundo_Grpc.csproj", "{0B0FCF8B-A0D2-4190-9CCB-B4D3DE287A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolaMundo_ConsumirGrpc", "HolaMundo_ConsumirGrpc\HolaMundo_ConsumirGrpc.csproj", "{397AD2A1-6B5A-4945-A435-894CD5B1267B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{0B0FCF8B-A0D2-4190-9CCB-B4D3DE287A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0FCF8B-A0D2-4190-9CCB-B4D3DE287A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B0FCF8B-A0D2-4190-9CCB-B4D3DE287A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397AD2A1-6B5A-4945-A435-894CD5B1267B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397AD2A1-6B5A-4945-A435-894CD5B1267B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397AD2A1-6B5A-4945-A435-894CD5B1267B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397AD2A1-6B5A-4945-A435-894CD5B1267B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
